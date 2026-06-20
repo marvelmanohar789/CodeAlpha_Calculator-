@@ -1,7 +1,3 @@
-# CodeAlpha_Calculator-
-Responsive Calculator built using HTML, CSS and JavaScript.
-
-calculator.html code :
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,14 +44,11 @@ calculator.html code :
 
     <script src="calculator.js"></script>
 
-</body>
-</html>
 
 
 
-calculator.css code:
 
-body {
+    body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +96,9 @@ button:hover {
 
 
 
-calculator.js code:
+
+
+
 
 let display = document.getElementById("display");
 
@@ -126,3 +121,6 @@ function calculate() {
         display.value = "Error";
     }
 }
+
+</body>
+</html>
